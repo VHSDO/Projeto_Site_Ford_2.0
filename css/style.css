@@ -10,8 +10,10 @@ html {
     height: 100%;
 }
 
-div#carousel {
-    height: 46vh;
+div#carrossel {
+    display: flex;
+    justify-content: center;
+    height: auto;
     width: 100%;
      max-height: 628px;
     -webkit-transition: all .3s ease-in-out;
@@ -19,11 +21,24 @@ div#carousel {
     transition: all .3s ease-in-out;
 }
 
-div#carousel-title a {
-    text-decoration: none;
+div#carrossel button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 100px;
+    margin-top: 270px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-div#carousel-title  {
+
+div#titulo-carrossel  {
+    text-decoration: none;
+    
+}
+
+div#titulo-carrossel  {
     display: block;
     text-align: center;
     margin-top: 10px;
