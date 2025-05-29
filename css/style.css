@@ -232,10 +232,6 @@ button {
         height: auto;
     }
 
-    div#carrossel {
-        padding: 0 5vw;
-    }
-
     div#carrossel button {
         width: 40px;
         height: 40px;
