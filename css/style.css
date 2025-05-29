@@ -140,3 +140,111 @@ button {
     border: 0px;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    body, html {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    header {
+        text-align: center;
+        padding: 15px;
+    }
+
+    header div {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    header nav ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header nav a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    div#carrossel {
+        flex-direction: column;
+        max-height: none;
+        height: auto;
+        padding: 10px;
+    }
+
+    div#titulo-carrossel {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    footer div {
+        float: none;
+        margin: 15px auto 0 auto;
+        display: block;
+    }
+
+    nav#social {
+        display: block;
+        width: 100%;
+    }
+
+    nav#social ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0;
+    }
+
+    nav#social ul li {
+        display: inline-block;
+    }
+
+    nav#social ul img {
+        width: 32px;
+    }
+
+    span.redesociais {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    div#carrossel img {
+        width: 100%;
+        max-width: 90vw;
+        height: auto;
+    }
+
+    div#carrossel {
+        padding: 0 5vw;
+    }
+
+    div#carrossel button {
+        width: 40px;
+        height: 40px;
+        margin: 10px auto;
+    }
+}

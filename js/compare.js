@@ -61,7 +61,7 @@ function HideCompare(){
 
 function UpdateCompareTable() {
     for(let i = 0; i < 2; i++) {
-        document.getElementById(`compare_image_${i}`).innerHTML = `<img src="${carArr[i].image}" class="photocar" style="width: 100px">`;
+        document.getElementById(`compare_image_${i}`).innerHTML = `<img src="${carArr[i].image}" class="photocar" style="width: 250px">`;
         document.getElementById(`compare_modelo_${i}`).innerText = carArr[i].nome;
         document.getElementById(`compare_alturacacamba_${i}`).innerText = carArr[i].alturaCacamba + " mm";
         document.getElementById(`compare_alturaveiculo_${i}`).innerText = carArr[i].alturaVeiculo + " mm";

@@ -31,6 +31,19 @@ main div {
     padding-bottom: 30px;
 }
 
+main div img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
 .forms {
     display: block;
     text-align: center;
@@ -58,4 +71,30 @@ button:active{
 
 .titulo {
     margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    main div {
+        display: block;
+        text-align: center;
+    }
+
+    .fordform, select.fordform {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .forms {
+        padding: 10px;
+    }
+
+    button {
+        float: none;
+        margin: 20px auto;
+    }
+
+    h2.titulo {
+        text-align: center;
+        margin-left: 0;
+    }
 }

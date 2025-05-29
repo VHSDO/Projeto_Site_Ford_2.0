@@ -90,3 +90,57 @@ div button:active{
     border-radius: 10px;
     background-color: white;
 }
+
+@media (max-width: 768px) {
+    ul.modelcars li {
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    img.photocar {
+        width: 100%;
+        height: auto;
+    }
+
+    div#compare {
+        width: 90vw;
+        left: 5vw;
+        min-width: unset;
+        max-width: unset;
+    }
+
+    table {
+        width: 95%;
+        font-size: 13px;
+        word-break: break-word;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    td:nth-child(1) {
+        width: 100px;
+    }
+
+    div#compare {
+        width: 95vw;
+        left: 2.5vw;
+        height: auto;
+        max-height: none;
+        min-height: unset;
+        padding: 10px;
+        overflow-y: auto;
+    }
+
+    div#compare table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    div#compare button {
+        width: 100%;
+    }
+}
