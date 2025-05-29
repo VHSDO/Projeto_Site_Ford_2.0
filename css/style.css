@@ -90,6 +90,13 @@ header nav a:hover {
     font-weight: 900;
 }
 
+#carrossel button:active{
+    background-color: white;
+    color: #1351d8;
+    border-radius: 10px;
+    border: #1351d8 solid;
+}
+
 nav li {
     display: inline;
     list-style: none;
